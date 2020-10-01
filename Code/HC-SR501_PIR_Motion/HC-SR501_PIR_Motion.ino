@@ -1,8 +1,6 @@
 const int pir = 12;
 const int ledPin =  13;
 
-int statusActive = 0 ;
-int statusPush = 0;
 int pirState = 0;
 
 void setup() {
@@ -26,8 +24,5 @@ void loop() {
     digitalWrite(ledPin, LOW);
 
   }
-
-
-
 
 }
